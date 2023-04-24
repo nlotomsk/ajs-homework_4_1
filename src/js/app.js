@@ -1,4 +1,3 @@
-
 export default function healthIndicator(characterData) {
   if (characterData.health > 50) {
     return 'healthy';

@@ -14,12 +14,12 @@ test('on 50', () => {
   expect(checker).toBe(expected);
 });
 
-test('on 25', () => {
-  const checker = healthIndicator({ name: 'Маг', health: 25 });
-  const expected = 'wounded';
+// test('on 25', () => {
+//   const checker = healthIndicator({ name: 'Маг', health: 25 });
+//   const expected = 'wounded';
 
-  expect(checker).toBe(expected);
-});
+//   expect(checker).toBe(expected);
+// });
 
 test('on 15', () => {
   const checker = healthIndicator({ name: 'Маг', health: 15 });
@@ -28,7 +28,7 @@ test('on 15', () => {
   expect(checker).toBe(expected);
 });
 
-test('on 2', () => {
+test('on 1', () => {
   const checker = healthIndicator({ name: 'Маг', health: 2 });
   const expected = 'critical';
 

@@ -14,13 +14,6 @@ test('on 50', () => {
   expect(checker).toBe(expected);
 });
 
-// test('on 25', () => {
-//   const checker = healthIndicator({ name: 'Маг', health: 25 });
-//   const expected = 'wounded';
-
-//   expect(checker).toBe(expected);
-// });
-
 test('on 15', () => {
   const checker = healthIndicator({ name: 'Маг', health: 15 });
   const expected = 'wounded';

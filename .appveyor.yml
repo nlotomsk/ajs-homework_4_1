@@ -1,4 +1,4 @@
-image: Debian10  # образ для сборки
+image: Debian  # образ для сборки
 
 stack: node v18.16.0  # окружение
 

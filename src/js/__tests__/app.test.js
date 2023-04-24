@@ -1,4 +1,4 @@
-import healthIndicator from '../app.js';
+import healthIndicator from '../app';
 
 test('above 50', () => {
   const checker = healthIndicator({ name: 'Маг', health: 90 });
